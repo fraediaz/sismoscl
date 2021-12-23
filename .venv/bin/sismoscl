@@ -1,0 +1,5 @@
+#!/Users/fraediaz/Dev/Pypi/sismoscl/.venv/bin/python
+from sismoscl.__main__ import app
+
+if __name__ == '__main__':
+    app()

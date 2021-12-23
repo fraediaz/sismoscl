@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: types-setuptools
+Version: 57.4.4
+Summary: Typing stubs for setuptools
+Home-page: https://github.com/python/typeshed
+License: Apache-2.0 license
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+## Typing stubs for setuptools
+
+This is a PEP 561 type stub package for the `setuptools` package.
+It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
+that uses `setuptools`. The source for this package can be found at
+https://github.com/python/typeshed/tree/master/stubs/setuptools. All fixes for
+types and metadata should be contributed there.
+
+See https://github.com/python/typeshed/blob/master/README.md for more details.
+This package was generated from typeshed commit `a5bc1e037fa9fb541d81de92ad27fa8543c65be4`.
+
+

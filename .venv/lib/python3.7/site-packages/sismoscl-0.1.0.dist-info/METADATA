@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: sismoscl
+Version: 0.1.0
+Summary: Sismos ocurridos en Chile, casi en tiempo real
+Home-page: https://github.com/fraediaz/sismoscl
+License: GNU GPL v3.0
+Author: fraediaz
+Author-email: fraediaz@icloud.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: importlib_metadata (>=4.5.0,<5.0.0); python_version < "3.8"
+Requires-Dist: rich (>=10.14.0,<11.0.0)
+Requires-Dist: typer[all] (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://github.com/fraediaz/sismoscl
+Description-Content-Type: text/markdown
+
+# sismoscl
+
+<div align="center">
+
+
+[![Python Version](https://img.shields.io/pypi/pyversions/sismoscl.svg)](https://pypi.org/project/sismoscl/)
+[![Dependencies Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/fraediaz/sismoscl/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aapp%2Fdependabot)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
+[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/fraediaz/sismoscl/blob/master/.pre-commit-config.yaml)
+[![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/fraediaz/sismoscl/releases)
+[![License](https://img.shields.io/github/license/fraediaz/sismoscl)](https://github.com/fraediaz/sismoscl/blob/master/LICENSE)
+![Coverage Report](assets/images/coverage.svg)
+
+Sismos ocurridos en Chile, casi en tiempo real
+
+</div>
+
+
+### Instalación
+
+Con python >= 3.7
+
+```bash
+pip install -U sismoscl
+```
+
+### Configuración
+
+Importa la librería, luego su función
+
+```bash
+from sismoscl import sismos
+```
+
+
+### Uso
+
+Devuelve una lista con los últimos sismos registrados por la Universidad de Chile
+```bash
+sismos()
+```
+
+Devuelve una lista con los últimos sismos mayores a magnitud 2
+```bash
+sismos(2)
+```

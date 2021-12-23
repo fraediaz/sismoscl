@@ -1,0 +1,3 @@
+[console_scripts]
+sismoscl=sismoscl.__main__:app
+

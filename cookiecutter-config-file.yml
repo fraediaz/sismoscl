@@ -1,0 +1,13 @@
+# This file contains values from Cookiecutter
+
+default_context:
+  project_name: "sismoscl"
+  project_description: "Sismos ocurridos en Chile, casi en tiempo real"
+  organization: "fraediaz"
+  license: "GNU GPL v3.0"
+  minimal_python_version: 3.7
+  github_name: "fraediaz"
+  email: "fraediaz@icloud.com"
+  version: "0.1.0"
+  line_length: "88"
+  create_example_template: "cli"
